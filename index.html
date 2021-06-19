@@ -3,7 +3,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Glow.</title>
-        <meta name="description" content="東京都多摩市のヘアサロンです。">
+        <meta name="description" content="埼玉県◯◯市のヘアサロンです。">
         <!-- CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="./css/style.css">
@@ -15,13 +15,14 @@
         <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
     </head>
     <body>
+        <div class="wrap">
         <header>
             <div id="header-top">
                 <div class="header-logo">
                     <picture>
-                        <source media="(max-width:768px)" srcset="./glow_logo_sp.png">
-                        <source media="(min-width:769px)" srcset="./glow_logo.png">
-                        <img src="./glow_logo.png" alt="glow">
+                        <source media="(max-width:768px)" srcset="./images/glow_logo_sp.png">
+                        <source media="(min-width:769px)" srcset="./images/glow_logo.png">
+                        <img src="./images/glow_logo.png" alt="glow">
                     </picture>
                 </div>
                 <div class="nav-button" id="nav-button">
@@ -55,9 +56,9 @@
             <section id="cover">
                 <div class="cover-inner">
                     <div class="carousel js-flickity" data-flickity-options='{ "autoPlay": true, "wrapAround": true, "fade": true, "accessibility": false, "pageDots": false, "prevNextButtons": false }'>
-                        <div class="carousel-cell"><img src="./cover1.jpg" alt=""></div>
-                        <div class="carousel-cell"><img src="./cover2.jpg" alt=""></div>
-                        <div class="carousel-cell"><img src="./cover3.jpg" alt=""></div>
+                        <div class="carousel-cell"><img src="./images/cover1.jpg" alt=""></div>
+                        <div class="carousel-cell"><img src="./images/cover2.jpg" alt=""></div>
+                        <div class="carousel-cell"><img src="./images/cover3.jpg" alt=""></div>
                     </div>
                 </div>
             </section>
@@ -75,7 +76,7 @@
                         </div>
                         <div class="concept-r">
                             <div class="img-box ml-auto">
-                                <img src="./top-img1.jpg" alt="concept">
+                                <img src="./images/top-img1.jpg" alt="concept">
                             </div>
                         </div>
                     </div>
@@ -87,7 +88,7 @@
                     <div class="info-wrap">
                         <div class="info-l">
                             <div class="img-box mr-auto">
-                                <img src="./top-img2.jpg" alt="information">
+                                <img src="./images/top-img2.jpg" alt="information">
                             </div>
                         </div>
                         <div class="info-r" id="information">
@@ -244,7 +245,7 @@
             <section id="contact">
                 <div class="contact-wrap">
                     <div class="contact-img mr-auto">
-                        <img src="./contact_img.jpg" alt="contact">
+                        <img src="./images/contact_img.jpg" alt="contact">
                     </div>    
                     <div class="contact-box">
                         <div class="contact-text">
@@ -297,6 +298,7 @@
                     </div>
                 </div>
             </section>
+            </div>            
         </main>
         <!-- JS -->        
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
