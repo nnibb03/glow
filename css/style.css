@@ -254,6 +254,9 @@ a {
   .sp-nav-list a {
     font-size: 2rem; }
 
+.wrap {
+  overflow-x: hidden; }
+
 .cover-inner {
   width: calc(100% - 120px);
   margin-left: auto;
