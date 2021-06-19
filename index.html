@@ -1,0 +1,307 @@
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Glow.</title>
+        <meta name="description" content="東京都多摩市のヘアサロンです。">
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+    	<link rel="stylesheet" href="./css/flickity.css"/>
+    	<link rel="stylesheet" href="https://unpkg.com/flickity-fade@1/flickity-fade.css">
+    	<!-- JavaScriptの読み込み -->
+    	<script src="./js/flickity.pkgd.js"></script>
+        <script src="https://kit.fontawesome.com/7c2d15ad4c.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="header-top">
+                <div class="header-logo">
+                    <picture>
+                        <source media="(max-width:768px)" srcset="./glow_logo_sp.png">
+                        <source media="(min-width:769px)" srcset="./glow_logo.png">
+                        <img src="./glow_logo.png" alt="glow">
+                    </picture>
+                </div>
+                <div class="nav-button" id="nav-button">
+                    <div class="hamburger-menu" id="hamburger-menu">
+                        <span class="menu"><hr><hr></span>
+                     </div>
+                 </div>                
+                <nav id="sp-nav">
+                    <ul class="sp-nav-list">
+                        <li><a href="#concept">Concept</a></li>
+                        <li><a href="#information">Information</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#access">Access</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="header-left">
+                <nav id="pc-nav">
+                    <ul class="g-nav">
+                        <li><span class="one"><a href="#concept">Concept</a></span></li>
+                        <li><span class="one"><a href="#information">Information</a></span></li>
+                        <li><span class="one"><a href="#menu">Menu</a></span></li>
+                        <li><span class="one"><a href="#contact">Contact</a></span></li>
+                        <li><span class="one"><a href="#access">Access</a></span></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="cover">
+                <div class="cover-inner">
+                    <div class="carousel js-flickity" data-flickity-options='{ "autoPlay": true, "wrapAround": true, "fade": true, "accessibility": false, "pageDots": false, "prevNextButtons": false }'>
+                        <div class="carousel-cell"><img src="./cover1.jpg" alt=""></div>
+                        <div class="carousel-cell"><img src="./cover2.jpg" alt=""></div>
+                        <div class="carousel-cell"><img src="./cover3.jpg" alt=""></div>
+                    </div>
+                </div>
+            </section>
+            <!--- Concept --->
+            <section id="concept">
+                <div class="inner">
+                    <div class="concept-wrap">
+                        <div class="concept-l">
+                            <div class="text ml-auto mr-auto">
+                                <h1>Concept</h1>
+                                <p>Glow.のコンセプトは『その人らしい輝き』を大切にすること。</p>
+                                <p>お客様ひとりひとりのご希望に真摯に向き合い</p>
+                                <p>輝きあふれるヘアスタイルをご提供いたします。</p>
+                            </div>
+                        </div>
+                        <div class="concept-r">
+                            <div class="img-box ml-auto">
+                                <img src="./top-img1.jpg" alt="concept">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--- information --->
+            <section>
+                <div class="inner">                
+                    <div class="info-wrap">
+                        <div class="info-l">
+                            <div class="img-box mr-auto">
+                                <img src="./top-img2.jpg" alt="information">
+                            </div>
+                        </div>
+                        <div class="info-r" id="information">
+                            <div class="info-text mr-auto">
+                                <h1>Information</h1>
+                                <h3>Open</h3>
+                                <p>9:00-19:30</p>
+                                <h3>Close</h3>
+                                <p>月曜日</p>
+                                <h3>Reservation</h3>
+                                <p>Cut最終受付　19:30
+                                    <br>Perm・Color最終受付　18:30</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+            <section id="menu">
+                <div class="menu-wrap">
+                <h1 class="section-title">Menu</h1>
+                    <div class="menu-contents">
+                        <!---menu1--->
+                        <div class="menu-column">
+                            <!---cut--->
+                            <h2>CUT</h2><span>（シャンプー・ブロー込み）</span>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>大人</th>
+                                        <td>￥4,100</td>
+                                    </tr>
+                                    <tr>
+                                        <th>中高生</th>
+                                        <td>￥3,500</td>
+                                    </tr>
+                                    <tr>
+                                        <th>ジュニア</th>
+                                        <td>￥2,100</td>
+                                    </tr>
+                                    <tr>
+                                        <th>フロントカット</th>
+                                        <td>￥600</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!---perm--->
+                            <h2 class="menu-second">PERM</h2><span>（シャンプー・ブロー込み／カット別）</span>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>パーマ</th>
+                                        <td>￥5,700</td>
+                                    </tr>
+                                    <tr>
+                                        <th>デジタルパーマ</th>
+                                        <td>￥6,500</td>
+                                    </tr>
+                                    <tr>
+                                        <th>ストレート</th>
+                                        <td>￥6,200</td>
+                                    </tr>
+                                    <tr>
+                                        <th>縮毛矯正</th>
+                                        <td>￥12,200</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>※スタイルにより別途料金が発生する場合がございます</p>
+                        </div>
+                        <!---menu2--->
+                        <div class="menu-column">
+                            <!---color--->
+                            <h2>COLOR</h2>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>カラー</th>
+                                        <td>￥5,700</td>
+                                    </tr>
+                                    <tr>
+                                        <th>リタッチ</th>
+                                        <td>￥5,200</td>
+                                    </tr>
+                                    <tr>
+                                        <th>ウィービング（立体カラー）</th>
+                                        <td>￥2,700</td>
+                                    </tr>
+                                    <tr>
+                                        <th>ゾーンカラー</th>
+                                        <td>￥2,700</td>
+                                    </tr>
+                                    <tr>
+                                        <th>ダブルカラー</th>
+                                        <td>￥10,200</td>
+                                    </tr>
+                                    <tr>
+                                        <th>マニキュア</th>
+                                        <td>￥5,700</td>
+                                    </tr>                                       
+                                </tbody>
+                            </table>
+                            <p>※長さにより別途ロング料金がかかります</p>
+                            <p>※リタッチは根元3センチ未満</p>
+                            <p>※根元リタッチは500円引</p>
+                        </div>
+                        <!---menu3--->
+                        <div class="menu-column">
+                            <!---treatment--->
+                            <h2>TREATMENT</h2><span>（シャンプー・ブロー別）</span>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>クイックトリートメント</th>
+                                        <td>￥1,200</td>
+                                    </tr>
+                                    <tr>
+                                        <th>モイスチャートリートメント</th>
+                                        <td>￥2,200</td>
+                                    </tr>
+                                    <tr>
+                                        <th>モロッカントリートメント</th>
+                                        <td>￥3,200</td>
+                                    </tr>
+                                </tbody>
+                            </table>                            
+                            <!---other--->
+                            <h2 class="menu-second">OTHER</h2>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>シャンプーブロー</th>
+                                        <td>￥2,700</td>
+                                    </tr>
+                                    <tr>
+                                        <th>ヘッドスパ</th>
+                                        <td>￥3,700</td>
+                                    </tr>
+                                    <tr>
+                                        <th>セット</th>
+                                        <td>￥4,500</td>
+                                    </tr>
+                                    <tr>
+                                        <th>メイク</th>
+                                        <td>￥3,200</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>※セット・メイクは早朝のご予約も受け付けております</p>
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+            <!---contact--->
+            <section id="contact">
+                <div class="contact-wrap">
+                    <div class="contact-img mr-auto">
+                        <img src="./contact_img.jpg" alt="contact">
+                    </div>    
+                    <div class="contact-box">
+                        <div class="contact-text">
+                            <h1>Contact</h1>
+                            <div class="contact-contents">
+                                <a href="tel:#" class="con con-l">
+                                    <svg width="43" height="43" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><g class="icon"><path d=" M 775 156C 810 178 852 212 860 259C 864 331 848 407 821 476C 738 687 531 846 304 863C 250 871 201 840 166 803C 138 779 126 737 145 704C 161 660 211 646 251 635C 293 617 347 601 392 626C 418 642 457 677 483 643C 558 589 624 519 658 432C 627 412 596 382 596 344C 603 297 610 250 628 206C 641 166 683 141 724 140C 742 139 760 145 775 156C 775 156 775 156 775 156M 669 187C 647 212 640 248 633 280C 630 310 611 342 629 370C 639 397 675 402 685 426C 661 505 607 573 544 626C 521 644 500 665 475 678C 425 698 393 640 346 638C 300 635 259 662 215 673C 179 683 152 724 165 760C 185 794 219 821 256 835C 305 845 356 832 404 820C 633 759 817 548 835 310C 840 274 834 236 805 211C 782 192 757 165 724 165C 704 165 685 174 669 187C 669 187 669 187 669 187" transform="rotate(90,500,500)"/></g></svg>
+                                    <h3>000-0000-0000</h3>
+                                </a>
+                                <a href="mailto:#" class="con">
+                                    <svg width="43" height="43" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><g class="icon"><path d=" M 900 188C 921 188 937 204 937 225C 937 225 937 800 937 800C 937 821 921 837 900 837C 900 837 100 837 100 837C 79 837 63 821 63 800C 63 800 63 225 63 225C 63 204 79 188 100 188C 100 188 900 188 900 188M 88 225C 88 225 88 368 88 368C 88 368 407 590 407 590C 443 614 472 625 500 625C 528 625 557 614 593 590C 593 590 912 368 912 368C 912 368 912 225 912 225C 912 218 907 213 900 213C 900 213 100 213 100 213C 93 213 88 218 88 225C 88 225 88 225 88 225M 88 800C 88 807 93 812 100 812C 100 812 900 812 900 812C 907 812 912 807 912 800C 912 800 912 399 912 399C 912 399 607 610 607 610C 607 610 607 610 607 610C 568 636 535 650 500 650C 465 650 432 636 393 610C 393 610 393 610 393 610C 393 610 88 399 88 399C 88 399 88 800 88 800"/></g></svg>
+                                    <h3>contact@glow.hair.net</h3>
+                                </a>
+                            </div>
+                            <span>※予約優先制となります。</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="access">
+                <div class="access-wrap">
+                    <div class="access-text-sp">
+                        <h1>Access</h1>
+                        <p>000-0000 東京都多摩市多摩川0-0-0</p>
+                        <p>京王〇〇駅より徒歩4分</p>
+                        <p>駐車場：3台</p>
+                        <a href="#" class="con">
+                            <svg width="24" height="24" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><g class="a-icon"><path d=" M 665 165C 770 236 815 380 770 499C 720 604 668 709 618 815C 596 855 584 905 543 931C 500 960 441 935 420 891C 362 775 306 657 249 540C 212 474 202 394 223 322C 255 201 375 110 500 113C 559 112 617 131 665 165C 665 165 665 165 665 165M 354 182C 255 246 211 380 253 490C 304 597 357 704 408 811C 427 845 437 887 470 910C 503 932 546 909 561 876C 617 760 672 645 728 529C 761 471 772 399 754 334C 727 221 617 136 500 137C 448 137 397 153 354 182C 354 182 354 182 354 182M 559 335C 601 371 595 444 549 473C 503 506 431 480 416 426C 398 372 443 310 500 312C 522 312 543 321 559 335C 559 335 559 335 559 335M 442 424C 459 469 527 476 552 435C 581 396 548 335 500 337C 456 336 424 385 442 424C 442 424 442 424 442 424"/></g></svg>
+                            <p>google map</p>
+                        </a>
+                    </div>                      
+                    <div class="access-l">
+                        <div class="access-text-pc">
+                            <h1>Access</h1>
+                            <p>000-0000 東京都多摩市多摩川0-0-0</p>
+                            <p>京王〇〇駅より徒歩4分</p>
+                            <p>駐車場：3台</p>
+                            <a href="#" class="con a-con">
+                                <svg width="24" height="24" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d=" M 665 165C 770 236 815 380 770 499C 720 604 668 709 618 815C 596 855 584 905 543 931C 500 960 441 935 420 891C 362 775 306 657 249 540C 212 474 202 394 223 322C 255 201 375 110 500 113C 559 112 617 131 665 165C 665 165 665 165 665 165M 354 182C 255 246 211 380 253 490C 304 597 357 704 408 811C 427 845 437 887 470 910C 503 932 546 909 561 876C 617 760 672 645 728 529C 761 471 772 399 754 334C 727 221 617 136 500 137C 448 137 397 153 354 182C 354 182 354 182 354 182M 559 335C 601 371 595 444 549 473C 503 506 431 480 416 426C 398 372 443 310 500 312C 522 312 543 321 559 335C 559 335 559 335 559 335M 442 424C 459 469 527 476 552 435C 581 396 548 335 500 337C 456 336 424 385 442 424C 442 424 442 424 442 424"/></svg>
+                                <p>google map</p>
+                            </a>
+                        </div>
+                    </div>                        
+                    <div class="access-r">
+                        <div class="access-img"></div>
+                    </div>
+                    <div id="footer">
+                        <a href="https://friconix.com/"><small>icons by Friconix</small></a>
+                        <small>©️ Glow. 2021</small>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- JS -->        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="./js/hamburger.js"></script>
+        <script src="./js/flickity.pkgd.js"></script>
+        <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
+    </body>
+</html>
