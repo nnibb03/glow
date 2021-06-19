@@ -255,7 +255,8 @@ a {
 
 .cover-inner {
   width: calc(100% - 120px);
-  margin-left: auto; }
+  margin-left: auto;
+  right: 0; }
   @media (max-width: 959px) {
     .cover-inner {
       width: calc(100% - 20px); } }
